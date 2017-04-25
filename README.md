@@ -1,6 +1,6 @@
 # npmtest-stylus-loader
 
-#### test coverage for  [stylus-loader (v3.0.1)](https://github.com/shama/stylus-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stylus-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stylus-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stylus-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-stylus-loader)
+#### basic test coverage for  [stylus-loader (v3.0.1)](https://github.com/shama/stylus-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stylus-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stylus-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stylus-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-stylus-loader)
 
 #### Stylus loader for webpack
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-stylus-loader/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-stylus-loader/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-stylus-loader/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-stylus-loader/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stylus-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stylus-loader/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-stylus-loader/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-stylus-loader/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stylus-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stylus-loader/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-stylus-loader/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-stylus-loader/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
         "test-dev": "testem -l firefox",
         "test-one": "testem ci -l firefox"
     },
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
